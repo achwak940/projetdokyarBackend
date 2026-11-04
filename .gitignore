@@ -1,0 +1,17 @@
+# Virtual environment
+venv_dokyra/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Database
+db.sqlite3
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
