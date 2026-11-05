@@ -1,4 +1,5 @@
 from django.db import models
+#AbstractUser admet de fonctionalité users pert 
 from django.contrib.auth.models import AbstractUser
 class Utilisateur(AbstractUser):
 

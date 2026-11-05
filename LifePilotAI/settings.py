@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
         'users',
 ]
 
@@ -129,4 +130,5 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+#dire a django utiliser le model peronnel de utilisateur qui je ajouter quelle fonctionalite et pas par defaut
 AUTH_USER_MODEL = 'users.Utilisateur'
